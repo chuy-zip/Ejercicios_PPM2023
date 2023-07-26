@@ -1,5 +1,14 @@
 package com.example.lab_parteb
 
+/**
+ * Universidad del Valle de Guatemala 
+ * Programacion de plataformas moviles
+ * Programa Hecho por Ricardo Chuy carne 221007
+ * Descripcion: Un programa de practica en kotlin que tiene como principal funcion la creacion de un metodo
+ * que obtenga una lista que pueda contener cualquier tipode dato o clase y que regrese como valor de 
+ * retorno una lista nueva que haya filtrado y clasificado los datos en una nueva clase abstracta llamada itemData
+ */
+
 class ItemData constructor(position: Int, data: Any, varType: String?, varInfo: String?){
     var originalPos: Int = position
     var originalValue: Any = data
